@@ -5,7 +5,7 @@
     <!-- Если на компьютере стоит другая версия .NET, поменяйте на net8.0 / net6.0: код совместим. -->
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <ImplicitUsings>disable</ImplicitUsings>
+    <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Hungarian</RootNamespace>
   </PropertyGroup>
 
