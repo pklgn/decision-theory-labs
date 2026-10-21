@@ -174,7 +174,6 @@ namespace Hungarian
         {
             int n = c.GetLength(0);
             int best = int.MaxValue;
-            var perm = Enumerable.Range(0, n).ToArray();
             var used = new bool[n];
 
             void Go(int i, int sum)
